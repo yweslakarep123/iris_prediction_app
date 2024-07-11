@@ -12,34 +12,34 @@ st.set_page_config(page_title="Iris Flower Predictor", page_icon="🌺", layout=
 st.markdown("""
 <style>
     body {
-        color: #000000;
-        background-color: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #000000;
     }
     .stApp {
-        background-color: #FFFFFF;
+        background-color: #000000;
     }
     .stHeader {
         background-color: #4DB6AC;
         padding: 1rem;
         border-radius: 10px;
     }
-    .stSubheader {
+    .stSubheader, h1, h2, h3, h4, h5, h6 {
         color: #4DB6AC;
     }
     .stSlider > div > div > div {
-        background-color: #F0F0F0;
+        background-color: #4DB6AC;
     }
     .stDataFrame {
-        background-color: #F0F0F0;
+        background-color: #333333;
     }
     .stPlotlyChart {
-        background-color: #F0F0F0;
+        background-color: #333333;
     }
     .stMarkdown {
-        color: #000000;
+        color: #FFFFFF;
     }
     .stSelectbox label, .stSlider label {
-        color: #000000;
+        color: #FFFFFF;
     }
     .stButton > button {
         color: #FFFFFF;
@@ -50,7 +50,7 @@ st.markdown("""
         background-color: #80CBC4;
     }
     .stSidebar .sidebar-content {
-        color: #000000;
+        color: #FFFFFF;
     }
 </style>
 """, unsafe_allow_html=True)
