@@ -6,28 +6,57 @@ from sklearn.ensemble import RandomForestClassifier
 import plotly.express as px
 
 # Page configuration
-# Page configuration
 st.set_page_config(page_title="Iris Flower Predictor", page_icon="🌺", layout="wide")
 
-# Custom CSS (removed the part affecting main content width)
+# Custom CSS
 st.markdown("""
 <style>
-    .main {
-        background-color: #f0f2f6;
+    body {
+        color: #000000;
+        background-color: #FFFFFF;
+    }
+    .stApp {
+        background-color: #FFFFFF;
     }
     .stHeader {
-        background-color: #6c757d;
+        background-color: #F0F0F0;
         padding: 1rem;
         border-radius: 10px;
     }
     .stSubheader {
-        color: #495057;
+        color: #4DB6AC;
+    }
+    .stSlider > div > div > div {
+        background-color: #4DB6AC;
+    }
+    .stDataFrame {
+        background-color: #F0F0F0;
+    }
+    .stPlotlyChart {
+        background-color: #F0F0F0;
+    }
+    .stMarkdown {
+        color: #000000;
+    }
+    .stSelectbox label, .stSlider label {
+        color: #000000;
+    }
+    .stButton > button {
+        color: #FFFFFF;
+        background-color: #4DB6AC;
+    }
+    .stButton > button:hover {
+        color: #FFFFFF;
+        background-color: #80CBC4;
+    }
+    .stSidebar .sidebar-content {
+        color: #000000;
     }
 </style>
 """, unsafe_allow_html=True)
 
 # Header
-st.markdown("<h1 style='text-align: center; color: #007bff;'>🌸 Iris Flower Prediction App 🌸</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #4DB6AC;'>🌸 Iris Flower Prediction App 🌸</h1>", unsafe_allow_html=True)
 
 # Introduction
 st.markdown("""
