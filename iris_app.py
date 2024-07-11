@@ -19,7 +19,7 @@ st.markdown("""
         background-color: #FFFFFF;
     }
     .stHeader {
-        background-color: #F0F0F0;
+        background-color: #4DB6AC;
         padding: 1rem;
         border-radius: 10px;
     }
@@ -27,7 +27,7 @@ st.markdown("""
         color: #4DB6AC;
     }
     .stSlider > div > div > div {
-        background-color: #4DB6AC;
+        background-color: #F0F0F0;
     }
     .stDataFrame {
         background-color: #F0F0F0;
