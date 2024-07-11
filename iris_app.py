@@ -39,7 +39,7 @@ st.markdown("""
         color: #FFFFFF;
     }
     .stSelectbox label, .stSlider label {
-        color: #FFFFFF;
+        color: #4DB6AC;
     }
     .stButton > button {
         color: #FFFFFF;
@@ -51,6 +51,9 @@ st.markdown("""
     }
     .stSidebar .sidebar-content {
         color: #FFFFFF;
+    }
+    .stSlider > div > div > div > div, .stSlider > div > div > div > div > div {
+        color: blue;
     }
 </style>
 """, unsafe_allow_html=True)
